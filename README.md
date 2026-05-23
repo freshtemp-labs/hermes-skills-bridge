@@ -108,6 +108,21 @@ python3 bridge.py validate [<name>]
 }
 ```
 
+## 🔗 同系列项目 — AI Agent 协作开发
+
+这三个项目均由 **Hermes Agent + 土鳖（DeepSeek）双 Agent 协作开发**，是 AI 辅助开发的最佳实践案例。欢迎 Star、Issue、PR！
+
+| 项目 | 描述 | 技术栈 | Stars |
+|------|------|--------|-------|
+| [**okr-alignment-system**](https://github.com/freshtemp-labs/okr-alignment-system) | OKR 对齐管理系统 — 树状可视化 + 级联计算 + iCloud 同步 | Swift / SwiftUI / CoreData | ![](https://img.shields.io/github/stars/freshtemp-labs/okr-alignment-system) |
+| [**ai-compute-map**](https://github.com/freshtemp-labs/ai-compute-map) | 全球 AI 算力供应链地图 — 三层数据可视化 | React / TypeScript / ECharts | ![](https://img.shields.io/github/stars/freshtemp-labs/ai-compute-map) |
+| [**ba2plus-calculator**](https://github.com/freshtemp-labs/ba2plus-calculator) | BA II Plus 金融计算器 — CFA 考试就绪 | HTML / JS / Tauri | ![](https://img.shields.io/github/stars/freshtemp-labs/ba2plus-calculator) |
+
+> 💡 **为什么这些项目值得关注？**
+> - 完整的 PRD + 代码文档 + 测试覆盖
+> - AI Agent 编写的代码经过人工审查和迭代优化
+> - 每个项目都有  标签，适合新手贡献者
+
 ## 🤝 贡献
 
 欢迎提交 PR 添加更多验证过的 skill 路径到 `top50.json`！
