@@ -4,7 +4,7 @@
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-yellow.svg)](https://python.org)
-[![Skills Imported](https://img.shields.io/badge/Skills%20Imported-50-green.svg)](top50.json)
+[![Skills Imported](https://img.shields.io/badge/Skills%20Imported-55-green.svg)](top55.json)
 
 ## 🚀 一行命令，500+ Skills
 
@@ -12,8 +12,8 @@
 # 导入单个 skill
 python3 bridge.py import anthropics/skills --skill frontend-design
 
-# 批量导入 Top 50
-python3 bridge.py batch-import top50.json
+# 批量导入 Top 55
+python3 bridge.py batch-import top55.json
 
 # 查看已导入
 python3 bridge.py list
@@ -22,17 +22,17 @@ python3 bridge.py list
 python3 bridge.py validate
 ```
 
-## 📦 已验证的 Top 50 Skills
+## 📦 已验证的 Top 55 Skills
 
-来自 **13 个高质量仓库**，覆盖 **5 大类别**：
+来自 **15 个高质量仓库**，覆盖 **5 大类别**：
 
 | 类别 | 数量 | 来源 |
 |------|------|------|
 | 🎨 Creative | 14 | anthropics, vercel-labs, op7418, blader, JuliusBrussee... |
-| 💻 Software Development | 12 | vercel-labs, anthropics, SawyerHood, lackeyjb... |
+| 💻 Software Development | 16 | vercel-labs, anthropics, addyosmani, wondelai, SawyerHood... |
 | 🔬 Research | 10 | lijigang, elementalsouls |
 | 📄 Productivity | 9 | lijigang, OthmanAdi, nidhinjs, zarazhangrui... |
-| 🛠 DevOps | 1 | vercel-labs |
+| 🛠 DevOps | 3 | vercel-labs, addyosmani |
 
 ### 热门 Skills
 
@@ -48,6 +48,12 @@ python3 bridge.py validate
 | [react-best-practices](https://github.com/vercel-labs/agent-skills) | — | Vercel官方React性能优化70条 |
 | [frontend-design](https://github.com/anthropics/skills) | — | Anthropic官方前端设计指南 |
 | [osint-methodology](https://github.com/elementalsouls/Claude-OSINT) | ⭐ 1.3K | OSINT调研方法论 |
+
+| [context-engineering](https://github.com/addyosmani/agent-skills) | ⭐ 45K | agent上下文工程指南 |
+| [ci-cd-and-automation](https://github.com/addyosmani/agent-skills) | ⭐ 45K | CI/CD自动化流水线 |
+| [browser-testing-with-devtools](https://github.com/addyosmani/agent-skills) | ⭐ 45K | 浏览器DevTools自动化测试 |
+| [domain-driven-design](https://github.com/wondelai/skills) | ⭐ 1.1K | DDD领域驱动设计 |
+| [clean-code](https://github.com/wondelai/skills) | ⭐ 1.1K | 整洁代码规范 |
 
 ## 🔧 工作原理
 
@@ -90,9 +96,9 @@ python3 bridge.py list
 python3 bridge.py validate [<name>]
 ```
 
-## 🎯 自定义 Top 50
+## 🎯 自定义 Top 55
 
-编辑 `top50.json` 添加你自己的 skills：
+编辑 `top55.json` 添加你自己的 skills：
 
 ```json
 {
@@ -125,7 +131,7 @@ python3 bridge.py validate [<name>]
 
 ## 🤝 贡献
 
-欢迎提交 PR 添加更多验证过的 skill 路径到 `top50.json`！
+欢迎提交 PR 添加更多验证过的 skill 路径到 `top55.json`！
 
 ## 📄 License
 
