@@ -75,6 +75,7 @@ Body content here
             parse_skill_md(content)
 
     def test_invalid_yaml(self):
+        # With fallback parser, simple key:value pairs survive broken YAML
         content = """\
 ---
 name: test
@@ -82,8 +83,9 @@ name: test
 ---
 body
 """
-        with self.assertRaises(ValueError):
-            parse_skill_md(content)
+        fm, body = parse_skill_md(content)
+        self.assertEqual(fm["name"], "test")
+        self.assertEqual(body.strip(), "body")
 
     def test_empty_body(self):
         content = """\
