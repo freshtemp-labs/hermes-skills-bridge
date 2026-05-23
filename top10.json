@@ -1,0 +1,75 @@
+{
+  "description": "Top 10 skills from skills.sh leaderboard to import into Hermes",
+  "skills": [
+    {
+      "name": "frontend-design",
+      "repo": "anthropics/skills",
+      "path": "skills/frontend-design",
+      "category": "creative",
+      "reason": "Anthropic官方，100K+安装，前端设计指南"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/react-best-practices",
+      "category": "software-development",
+      "reason": "Vercel官方，100K+安装，React/Next.js性能优化70条规则"
+    },
+    {
+      "name": "web-design-guidelines",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/web-design-guidelines",
+      "category": "creative",
+      "reason": "Vercel官方，Web设计规范"
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/supabase-postgres-best-practices",
+      "category": "software-development",
+      "reason": "Supabase/PostgreSQL最佳实践"
+    },
+    {
+      "name": "caveman-review",
+      "repo": "xixu-me/skills",
+      "path": "skills/caveman-review",
+      "category": "software-development",
+      "reason": "1.5M总安装量，代码审查"
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "repo": "skills-sh/skills",
+      "path": "skills/improve-codebase-architecture",
+      "category": "software-development",
+      "reason": "代码架构改进"
+    },
+    {
+      "name": "seo-audit",
+      "repo": "skills-sh/skills",
+      "path": "skills/seo-audit",
+      "category": "productivity",
+      "reason": "SEO审计"
+    },
+    {
+      "name": "agent-browser",
+      "repo": "skills-sh/skills",
+      "path": "skills/agent-browser",
+      "category": "software-development",
+      "reason": "浏览器自动化"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "repo": "skills-sh/skills",
+      "path": "skills/ui-ux-pro-max",
+      "category": "creative",
+      "reason": "UI/UX设计增强"
+    },
+    {
+      "name": "skill-creator",
+      "repo": "anthropics/skills",
+      "path": "skills/skill-creator",
+      "category": "software-development",
+      "reason": "Anthropic官方，创建新skills的元技能"
+    }
+  ]
+}
