@@ -1,0 +1,107 @@
+name,description,category,tags,popularity_score,repo,path,reason
+frontend-design,Frontend UI/UX design guidelines and best practices for modern web applications,creative,Utility;Tool,0.85,anthropics/skills,skills/frontend-design,Anthropic官方，前端设计指南
+skill-creator,Meta-skill for creating new Hermes/AI agent skills with proper structure,software-development,Utility;Tool,0.9,anthropics/skills,skills/skill-creator,Anthropic官方，创建新skill的元技能
+algorithmic-art,Generate algorithmic and generative art using code-based approaches,creative,Utility;Tool,0.7,anthropics/skills,skills/algorithmic-art,算法艺术生成
+brand-guidelines,Brand identity design specifications and visual language standards,creative,Utility,0.65,anthropics/skills,skills/brand-guidelines,品牌设计规范
+canvas-design,HTML Canvas-based interactive designs and visualizations,creative,Utility,0.72,anthropics/skills,skills/canvas-design,Canvas画布设计
+claude-api,Claude API integration guide for building AI-powered applications,software-development,Platform;Tool,0.92,anthropics/skills,skills/claude-api,Claude API开发指南
+doc-coauthoring,Collaborative document authoring and editing workflows,productivity,Utility,0.75,anthropics/skills,skills/doc-coauthoring,文档协作
+docx,Microsoft Word document creation and manipulation automation,productivity,Tool,0.78,anthropics/skills,skills/docx,Word文档处理
+internal-comms,Internal communication document templates and best practices,productivity,Utility,0.6,anthropics/skills,skills/internal-comms,内部沟通文档
+mcp-builder,Build Model Context Protocol (MCP) servers for AI tool integration,software-development,Tool;Framework,0.95,anthropics/skills,skills/mcp-builder,MCP服务器构建
+pdf,"PDF document generation, extraction, and manipulation",productivity,Tool,0.8,anthropics/skills,skills/pdf,PDF文档处理
+pptx,PowerPoint presentation creation with automated slide design,productivity,Tool,0.76,anthropics/skills,skills/pptx,PPT演示文稿制作
+slack-gif-creator,Create animated GIFs optimized for Slack messaging platform,creative,Tool,0.55,anthropics/skills,skills/slack-gif-creator,Slack GIF制作
+theme-factory,Theme and visual style generation system for applications,creative,Utility,0.62,anthropics/skills,skills/theme-factory,主题工厂
+web-artifacts-builder,Build interactive web components and artifacts for AI agents,software-development,Tool,0.82,anthropics/skills,skills/web-artifacts-builder,Web组件构建
+webapp-testing,"Web application testing strategies covering E2E, integration, unit",software-development,Tool,0.74,anthropics/skills,skills/webapp-testing,Web应用测试
+xlsx,"Excel spreadsheet creation, data analysis, and formula automation",productivity,Tool,0.78,anthropics/skills,skills/xlsx,Excel文件处理
+react-best-practices,React performance optimization with 70+ rules from Vercel Engineering,software-development,Framework;Utility,0.92,vercel-labs/agent-skills,skills/react-best-practices,Vercel官方，React性能优化70条规则
+web-design-guidelines,Web design principles and UI component architecture guidelines,creative,Utility,0.82,vercel-labs/agent-skills,skills/web-design-guidelines,Vercel官方，Web设计规范
+composition-patterns,React component composition patterns for scalable UI architecture,software-development,Framework,0.78,vercel-labs/agent-skills,skills/composition-patterns,React组合模式
+deploy-to-vercel,Deploy frontend applications to Vercel platform with best practices,devops,Platform,0.85,vercel-labs/agent-skills,skills/deploy-to-vercel,Vercel部署指南
+react-native-skills,React Native cross-platform mobile development best practices,software-development,Framework,0.8,vercel-labs/agent-skills,skills/react-native-skills,React Native开发
+react-view-transitions,React view transition animations and page navigation patterns,software-development,Framework,0.72,vercel-labs/agent-skills,skills/react-view-transitions,React视图过渡
+vercel-optimize,Vercel deployment optimization for performance and cost efficiency,software-development,Platform;Tool,0.83,vercel-labs/agent-skills,skills/vercel-optimize,Vercel性能优化
+ljg-learn,Concept dissector that breaks down complex ideas into understandable pieces,research,Utility,0.88,lijigang/ljg-skills,skills/ljg-learn,概念解剖器，5.2K stars
+ljg-think,Deep thinking tool for thorough analysis and critical reasoning,research,Utility,0.86,lijigang/ljg-skills,skills/ljg-think,追本之箭，深度思考
+ljg-read,Reading companion that helps extract key insights from any text,research,Utility,0.84,lijigang/ljg-skills,skills/ljg-read,伴读教练
+ljg-plain,Force AI to speak plainly without marketing or academic jargon,creative,Utility,0.9,lijigang/ljg-skills,skills/ljg-plain,逼AI说人话
+ljg-card,Cognitive visualization that turns abstract concepts into visual cards,creative,Utility;Tool,0.82,lijigang/ljg-skills,skills/ljg-card,认知可视化
+ljg-book,Reading assistant for books with structured note-taking and summaries,research,Utility,0.8,lijigang/ljg-skills,skills/ljg-book,读书助手
+ljg-invest,Investment analysis and financial research assistant,research,Utility;Tool,0.76,lijigang/ljg-skills,skills/ljg-invest,投资分析
+ljg-travel,Travel research and itinerary planning assistant,research,Utility,0.74,lijigang/ljg-skills,skills/ljg-travel,旅行研究
+ljg-rank,Ranking engine that compares and scores multiple options systematically,research,Utility;Tool,0.78,lijigang/ljg-skills,skills/ljg-rank,降秩引擎
+ljg-paper,Academic paper reading and analysis with structured extraction,research,Utility,0.82,lijigang/ljg-skills,skills/ljg-paper,论文阅读
+ljg-skill-map,Skill map visualization showing relationships between concepts,software-development,Tool;Utility,0.72,lijigang/ljg-skills,skills/ljg-skill-map,技能地图可视化
+ljg-writes,Writing assistant for creative and professional content creation,creative,Utility,0.85,lijigang/ljg-skills,skills/ljg-writes,写作助手
+ljg-qa,Q&A assistant for answering questions with structured reasoning,research,Utility,0.8,lijigang/ljg-skills,skills/ljg-qa,问答助手
+ljg-word,Word dissection and etymology analysis for vocabulary building,research,Utility,0.78,lijigang/ljg-skills,skills/ljg-word,单词解剖
+caveman,Minimalist code review skill that catches bugs without unnecessary commentary,software-development,Tool;Utility,0.95,JuliusBrussee/caveman,skills/caveman,63K stars，极简代码审查
+planning-with-files,Manus-style persistent planning with file-based project management,productivity,Utility;Tool,0.91,OthmanAdi/planning-with-files,skills/planning-with-files,21K stars，Manus风格持久化规划
+humanizer,Remove AI writing patterns to produce more natural human-like text,creative,Utility;Tool,0.9,blader/humanizer,SKILL.md,20K stars，去除AI写作痕迹
+humanizer-zh,Chinese version of Humanizer: remove AI writing traces in Chinese text,creative,Utility;Tool,0.82,op7418/Humanizer-zh,SKILL.md,8K stars，Humanizer中文版
+prompt-master,Precision prompt engineering for generating better LLM outputs,productivity,Utility;Tool,0.82,nidhinjs/prompt-master,SKILL.md,8K stars，精准Prompt生成
+dev-browser,Browser automation skill for web scraping and testing workflows,software-development,Tool,0.8,SawyerHood/dev-browser,skills/dev-browser,6K stars，浏览器自动化
+playwright-skill,Playwright-based browser automation for E2E testing at scale,software-development,Tool;Framework,0.78,lackeyjb/playwright-skill,skills/playwright-skill,2.6K stars，Playwright浏览器自动化
+osint-methodology,Open Source Intelligence gathering methodology and best practices,research,Utility;Tool,0.72,elementalsouls/Claude-OSINT,skills/osint-methodology,1.3K stars，OSINT调研方法论
+offensive-osint,Offensive OSINT techniques for security research and threat intelligence,research,Tool;Utility,0.7,elementalsouls/Claude-OSINT,skills/offensive-osint,1.3K stars，攻击性OSINT
+anything-to-notebooklm,Convert various content sources into NotebookLM-ready format,productivity,Utility;Tool,0.78,joeseesun/qiaomu-anything-to-notebooklm,SKILL.md,4.5K stars，多源内容处理
+codebase-to-course,Transform any codebase into structured learning courses,productivity,Utility;Tool,0.76,zarazhangrui/codebase-to-course,SKILL.md,4.4K stars，代码库变课程
+guizang-ppt-skill,Create electronic magazine style presentations with visual flair,creative,Utility;Tool,0.78,op7418/guizang-ppt-skill,SKILL.md,4.5K stars，电子杂志风PPT
+stripe-best-practices,Stripe payment integration best practices for secure transactions,software-development,Platform;Utility,0.9,stripe/ai,skills/stripe-best-practices,Stripe官方，支付集成最佳实践
+find-skills,Discover and install skills from the skills.sh ecosystem,software-development,Tool;Utility,0.75,vercel-labs/skills,skills/find-skills,Vercel官方，技能发现与安装
+building-ai-agent-on-cloudflare,Build AI agents on Cloudflare's edge computing platform,software-development,Platform;Framework,0.88,cloudflare/skills,skills/building-ai-agent-on-cloudflare,Cloudflare官方，AI Agent构建
+cloudflare-docs,Cloudflare platform documentation reference for developers,devops,Platform,0.78,cloudflare/skills,skills/cloudflare-docs,Cloudflare官方，文档参考
+building-mcp-server-on-cloudflare,Build MCP servers on Cloudflare Workers infrastructure,software-development,Platform;Tool,0.85,cloudflare/skills,skills/building-mcp-server-on-cloudflare,Cloudflare MCP服务器构建
+netlify-dev,Netlify development and deployment guide for web applications,devops,Platform,0.78,netlify/skills,skills/netlify-dev,Netlify官方，开发部署指南
+expo-best-practices,Expo framework best practices for React Native development,software-development,Platform;Framework,0.82,expo/skills,skills/expo-best-practices,Expo官方，React Native最佳实践
+remotion-best-practices,Remotion framework for programmatic video creation with React,creative,Platform;Framework,0.8,remotion-dev/skills,skills/remotion-best-practices,Remotion官方，视频编程最佳实践
+building-secure-contracts,Smart contract security audit methodology from Trail of Bits,red-teaming,Framework;Tool,0.85,trailofbits/skills,skills/building-secure-contracts,Trail of Bits，智能合约安全审计
+differential-review,Security-focused differential code review techniques,software-development,Tool;Utility,0.78,trailofbits/skills,skills/differential-review,Trail of Bits，安全代码审查
+figma-design,Figma design tool integration and design system management,creative,Platform;Tool,0.85,figma/skills,skills/figma-design,Figma官方，设计系统集成
+sentry-setup,Sentry error monitoring setup and configuration best practices,devops,Platform;Tool,0.82,sentry/skills,skills/sentry-setup,Sentry官方，错误监控集成
+neon-database,Neon serverless Postgres database setup and query optimization,data-science,Platform,0.78,neondatabase/skills,skills/neon-database,Neon官方，Serverless Postgres
+supabase-integration,Supabase backend-as-a-service integration for web applications,software-development,Platform,0.85,supabase/skills,skills/supabase-integration,Supabase官方，后端集成
+firecrawl-skill,Firecrawl web scraping and crawling for structured data extraction,research,Tool,0.8,firecrawl/skills,skills/firecrawl-skill,Firecrawl官方，网页抓取
+phpstorm-skill,PhpStorm IDE integration and productivity automation,software-development,Tool,0.68,nicoverbruggen/phpstorm-skill,SKILL.md,PhpStorm IDE集成技能
+sql-expert,SQL query optimization and database performance tuning expert,data-science,Utility;Tool,0.76,angeligareta/SQL-expert-skill,SKILL.md,SQL专家查询优化技能
+wordpress-development,WordPress plugin and theme development best practices,software-development,Platform;Framework,0.76,WordPress/skills,skills/wordpress-development,WordPress官方，WP开发指南
+duckdb-analytics,DuckDB in-process analytical database for fast data queries,data-science,Tool;Platform,0.82,duckdb/skills,skills/duckdb-analytics,DuckDB官方，分析查询
+callstack-react-native,Callstack's React Native development expertise and patterns,software-development,Framework;Utility,0.74,callstack/skills,skills/callstack-react-native,Callstack，React Native专家
+github-copilot-instructions,GitHub security review automation with Copilot instructions,software-development,Tool;Utility,0.85,github/awesome-copilot,skills/security-review,GitHub官方，安全审查技能
+langgraph,LangGraph framework for building multi-agent applications,software-development,Framework,0.9,sickn33/antigravity-awesome-skills,skills/langgraph,LangGraph多代理应用开发
+crewai,CrewAI multi-agent orchestration framework for AI teams,software-development,Framework;Agent,0.92,sickn33/antigravity-awesome-skills,skills/crewai,CrewAI多代理框架
+autonomous-agents,ReAct pattern autonomous agents with tool-use capabilities,software-development,Framework;Agent,0.88,sickn33/antigravity-awesome-skills,skills/autonomous-agents,自主代理ReAct模式
+agent-memory-systems,Memory architectures for persistent AI agent state management,software-development,Framework;Agent,0.82,sickn33/antigravity-awesome-skills,skills/agent-memory-systems,AI Agent记忆架构
+voice-agents,Voice AI agent development with speech recognition and synthesis,software-development,Agent;Framework,0.85,sickn33/antigravity-awesome-skills,skills/voice-agents,语音AI助手开发
+prompt-engineer,Advanced LLM prompt engineering techniques and patterns,productivity,Utility,0.86,sickn33/antigravity-awesome-skills,skills/prompt-engineer,LLM提示工程
+langfuse,Langfuse observability platform for LLM application monitoring,mlops,Platform;Tool,0.84,sickn33/antigravity-awesome-skills,skills/langfuse,LLM可观测性与追踪
+php-modernization,PHP 8.x modernization: upgrade legacy code to modern PHP,software-development,Utility;Framework,0.65,netresearch/php-modernization-skill,SKILL.md,PHP 8.x现代化升级
+drawio-skill,Draw.io diagram generation for architecture and flow charts,creative,Tool,0.72,Agents365-ai/drawio-skill,SKILL.md,Draw.io图表生成
+asta-skill,Smart contract audit report generation with automated analysis,red-teaming,Tool,0.6,Agents365-ai/asta-skill,SKILL.md,智能合约审计报告生成
+security-review,GitHub security review automation with vulnerability scanning,red-teaming,Tool;Utility,0.85,github/awesome-copilot,skills/security-review,GitHub安全审查，漏洞扫描
+claude-jobs,Tech company job search and position matching assistant,productivity,Tool;Utility,0.7,jshchnz/claude-jobs,SKILL.md,科技公司职位搜索
+using-superpowers,Superpowers framework usage guide for agent development,productivity,Framework;Utility,0.72,obra/superpowers,skills/using-superpowers,Superpowers框架使用指南，964 stars
+requesting-code-review,Automated code review request workflow and best practices,software-development,Utility;Tool,0.78,obra/superpowers,skills/requesting-code-review,自动化代码审查流程
+receiving-code-review,Best practices for receiving and acting on code review feedback,software-development,Utility,0.72,obra/superpowers,skills/receiving-code-review,接收代码审查反馈最佳实践
+writing-plans,Structured development plan writing for project execution,productivity,Utility,0.8,obra/superpowers,skills/writing-plans,开发计划编写
+executing-plans,Systematic development plan execution and tracking,productivity,Utility,0.8,obra/superpowers,skills/executing-plans,开发计划执行
+brainstorming,Structured brainstorming techniques for creative problem solving,creative,Utility,0.74,obra/superpowers,skills/brainstorming,结构化头脑风暴
+subagent-driven-development,Sub-agent driven development pattern for complex software,software-development,Agent;Framework,0.82,obra/superpowers,skills/subagent-driven-development,子代理驱动开发模式
+using-git-worktrees,Git worktree isolation for parallel development branches,software-development,Utility;Tool,0.7,obra/superpowers,skills/using-git-worktrees,Git Worktree隔离开发
+finishing-a-development-branch,"Branch completion, merge, and cleanup best practices",software-development,Utility;Tool,0.72,obra/superpowers,skills/finishing-a-development-branch,开发分支完成与合并
+narrator-ai-cli-skill,AI narrator for video voiceover and commentary generation,creative,Tool;Utility,0.68,NarratorAI-Studio/narrator-ai-cli-skill,SKILL.md,AI解说大师，视频配音
+adb-skill,Android Debug Bridge automation for device testing,software-development,Tool,0.65,NickLascelles/skills,skills/adb-skill,Android调试桥自动化
+clipboard-skill,Clipboard operations automation for copy-paste workflows,productivity,Tool;Utility,0.62,NickLascelles/skills,skills/clipboard-skill,剪贴板操作自动化
+a11y-audit,WCAG 2.2 accessibility audit for web application compliance,software-development,Tool;Utility,0.7,alirezarezvani/claude-skills,skills/a11y-audit,WCAG 2.2无障碍审计
+docker-development,Docker development best practices and container optimization,devops,Platform;Tool,0.8,alirezarezvani/claude-skills,skills/docker-development,Docker开发最佳实践
+helm-chart-builder,Helm chart construction for Kubernetes application deployment,devops,Tool,0.74,alirezarezvani/claude-skills,skills/helm-chart-builder,Helm Chart构建
+terraform-patterns,Terraform infrastructure-as-code module design patterns,devops,Framework;Tool,0.78,alirezarezvani/claude-skills,skills/terraform-patterns,Terraform IaC模块设计
+executive-mentor,Adversarial thinking partner for strategic decision making,productivity,Utility;Agent,0.72,alirezarezvani/claude-skills,skills/executive-mentor,对抗性思维伙伴
+research-summarizer,Structured research synthesis and multi-source summarization,research,Utility,0.76,alirezarezvani/claude-skills,skills/research-summarizer,结构化研究综合
+seo-auditor,7-stage SEO audit pipeline for website optimization,social-media,Tool,0.7,alirezarezvani/claude-skills,skills/seo-auditor,7阶段SEO审计管道
+epic-design,Epic-scale design system architecture for large applications,creative,Utility,0.68,alirezarezvani/claude-skills,skills/epic-design,史诗级设计系统
+accelint-ts-best-practices,TypeScript best practices and type-safe coding patterns,software-development,Framework;Utility,0.76,gohypergiant/agent-skills,skills/accelint-ts-best-practices,TypeScript最佳实践
+accelint-skill-manager,Skill lifecycle management and audit automation,software-development,Tool;Utility,0.68,gohypergiant/agent-skills,skills/accelint-skill-manager,Skill管理与审计
+skill-judge,Skill quality assessment and code review evaluation,software-development,Tool;Utility,0.7,gohypergiant/agent-skills,skills/skill-judge,Skill质量评判

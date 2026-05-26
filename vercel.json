@@ -1,0 +1,21 @@
+{
+  "name": "hermes-skills-bridge",
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "top100.json",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "top100.csv",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/index.html" }
+  ]
+}

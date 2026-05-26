@@ -6,70 +6,126 @@
       "repo": "anthropics/skills",
       "path": "skills/frontend-design",
       "category": "creative",
-      "reason": "Anthropic官方，100K+安装，前端设计指南"
+      "reason": "Anthropic官方，100K+安装，前端设计指南",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.85,
+      "description": "Frontend UI/UX design guidelines and best practices for modern web applications"
     },
     {
       "name": "vercel-react-best-practices",
       "repo": "vercel-labs/agent-skills",
       "path": "skills/react-best-practices",
       "category": "software-development",
-      "reason": "Vercel官方，100K+安装，React/Next.js性能优化70条规则"
+      "reason": "Vercel官方，100K+安装，React/Next.js性能优化70条规则",
+      "tags": [
+        "Framework",
+        "Utility"
+      ],
+      "popularity_score": 0.9,
+      "description": "React and Next.js performance optimization with 70+ rules from Vercel Engineering"
     },
     {
       "name": "web-design-guidelines",
       "repo": "vercel-labs/agent-skills",
       "path": "skills/web-design-guidelines",
       "category": "creative",
-      "reason": "Vercel官方，Web设计规范"
+      "reason": "Vercel官方，Web设计规范",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.82,
+      "description": "Web design principles and UI component architecture guidelines"
     },
     {
       "name": "supabase-postgres-best-practices",
       "repo": "vercel-labs/agent-skills",
       "path": "skills/supabase-postgres-best-practices",
       "category": "software-development",
-      "reason": "Supabase/PostgreSQL最佳实践"
+      "reason": "Supabase/PostgreSQL最佳实践",
+      "tags": [
+        "Platform",
+        "Tool"
+      ],
+      "popularity_score": 0.84,
+      "description": "Supabase and PostgreSQL database design and query optimization"
     },
     {
       "name": "caveman-review",
       "repo": "xixu-me/skills",
       "path": "skills/caveman-review",
       "category": "software-development",
-      "reason": "1.5M总安装量，代码审查"
+      "reason": "1.5M总安装量，代码审查",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.88,
+      "description": "Minimalist code review that catches bugs without unnecessary commentary"
     },
     {
       "name": "improve-codebase-architecture",
       "repo": "skills-sh/skills",
       "path": "skills/improve-codebase-architecture",
       "category": "software-development",
-      "reason": "代码架构改进"
+      "reason": "代码架构改进",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.78,
+      "description": "Code architecture improvement patterns and refactoring strategies"
     },
     {
       "name": "seo-audit",
       "repo": "skills-sh/skills",
       "path": "skills/seo-audit",
       "category": "productivity",
-      "reason": "SEO审计"
+      "reason": "SEO审计",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.72,
+      "description": "SEO audit and optimization for web application search visibility"
     },
     {
       "name": "agent-browser",
       "repo": "skills-sh/skills",
       "path": "skills/agent-browser",
       "category": "software-development",
-      "reason": "浏览器自动化"
+      "reason": "浏览器自动化",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.8,
+      "description": "Browser automation for AI agents with navigation and interaction"
     },
     {
       "name": "ui-ux-pro-max",
       "repo": "skills-sh/skills",
       "path": "skills/ui-ux-pro-max",
       "category": "creative",
-      "reason": "UI/UX设计增强"
+      "reason": "UI/UX设计增强",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.76,
+      "description": "Enhanced UI/UX design system for premium user experiences"
     },
     {
       "name": "skill-creator",
       "repo": "anthropics/skills",
       "path": "skills/skill-creator",
       "category": "software-development",
-      "reason": "Anthropic官方，创建新skills的元技能"
+      "reason": "Anthropic官方，创建新skills的元技能",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.9,
+      "description": "Meta-skill for creating new Hermes/AI agent skills with proper structure"
     }
   ]
 }

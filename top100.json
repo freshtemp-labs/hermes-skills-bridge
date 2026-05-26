@@ -1,111 +1,1336 @@
 {
   "description": "Top 100+ skills to import into Hermes — all verified SKILL.md paths",
   "skills": [
-    {"name": "frontend-design", "repo": "anthropics/skills", "path": "skills/frontend-design", "category": "creative", "reason": "Anthropic官方，前端设计指南"},
-    {"name": "skill-creator", "repo": "anthropics/skills", "path": "skills/skill-creator", "category": "software-development", "reason": "Anthropic官方，创建新skill的元技能"},
-    {"name": "algorithmic-art", "repo": "anthropics/skills", "path": "skills/algorithmic-art", "category": "creative", "reason": "算法艺术生成"},
-    {"name": "brand-guidelines", "repo": "anthropics/skills", "path": "skills/brand-guidelines", "category": "creative", "reason": "品牌设计规范"},
-    {"name": "canvas-design", "repo": "anthropics/skills", "path": "skills/canvas-design", "category": "creative", "reason": "Canvas画布设计"},
-    {"name": "claude-api", "repo": "anthropics/skills", "path": "skills/claude-api", "category": "software-development", "reason": "Claude API开发指南"},
-    {"name": "doc-coauthoring", "repo": "anthropics/skills", "path": "skills/doc-coauthoring", "category": "productivity", "reason": "文档协作"},
-    {"name": "docx", "repo": "anthropics/skills", "path": "skills/docx", "category": "productivity", "reason": "Word文档处理"},
-    {"name": "internal-comms", "repo": "anthropics/skills", "path": "skills/internal-comms", "category": "productivity", "reason": "内部沟通文档"},
-    {"name": "mcp-builder", "repo": "anthropics/skills", "path": "skills/mcp-builder", "category": "software-development", "reason": "MCP服务器构建"},
-    {"name": "pdf", "repo": "anthropics/skills", "path": "skills/pdf", "category": "productivity", "reason": "PDF文档处理"},
-    {"name": "pptx", "repo": "anthropics/skills", "path": "skills/pptx", "category": "productivity", "reason": "PPT演示文稿制作"},
-    {"name": "slack-gif-creator", "repo": "anthropics/skills", "path": "skills/slack-gif-creator", "category": "creative", "reason": "Slack GIF制作"},
-    {"name": "theme-factory", "repo": "anthropics/skills", "path": "skills/theme-factory", "category": "creative", "reason": "主题工厂"},
-    {"name": "web-artifacts-builder", "repo": "anthropics/skills", "path": "skills/web-artifacts-builder", "category": "software-development", "reason": "Web组件构建"},
-    {"name": "webapp-testing", "repo": "anthropics/skills", "path": "skills/webapp-testing", "category": "software-development", "reason": "Web应用测试"},
-    {"name": "xlsx", "repo": "anthropics/skills", "path": "skills/xlsx", "category": "productivity", "reason": "Excel文件处理"},
-    {"name": "react-best-practices", "repo": "vercel-labs/agent-skills", "path": "skills/react-best-practices", "category": "software-development", "reason": "Vercel官方，React性能优化70条规则"},
-    {"name": "web-design-guidelines", "repo": "vercel-labs/agent-skills", "path": "skills/web-design-guidelines", "category": "creative", "reason": "Vercel官方，Web设计规范"},
-    {"name": "composition-patterns", "repo": "vercel-labs/agent-skills", "path": "skills/composition-patterns", "category": "software-development", "reason": "React组合模式"},
-    {"name": "deploy-to-vercel", "repo": "vercel-labs/agent-skills", "path": "skills/deploy-to-vercel", "category": "devops", "reason": "Vercel部署指南"},
-    {"name": "react-native-skills", "repo": "vercel-labs/agent-skills", "path": "skills/react-native-skills", "category": "software-development", "reason": "React Native开发"},
-    {"name": "react-view-transitions", "repo": "vercel-labs/agent-skills", "path": "skills/react-view-transitions", "category": "software-development", "reason": "React视图过渡"},
-    {"name": "vercel-optimize", "repo": "vercel-labs/agent-skills", "path": "skills/vercel-optimize", "category": "software-development", "reason": "Vercel性能优化"},
-    {"name": "ljg-learn", "repo": "lijigang/ljg-skills", "path": "skills/ljg-learn", "category": "research", "reason": "概念解剖器，5.2K stars"},
-    {"name": "ljg-think", "repo": "lijigang/ljg-skills", "path": "skills/ljg-think", "category": "research", "reason": "追本之箭，深度思考"},
-    {"name": "ljg-read", "repo": "lijigang/ljg-skills", "path": "skills/ljg-read", "category": "research", "reason": "伴读教练"},
-    {"name": "ljg-plain", "repo": "lijigang/ljg-skills", "path": "skills/ljg-plain", "category": "creative", "reason": "逼AI说人话"},
-    {"name": "ljg-card", "repo": "lijigang/ljg-skills", "path": "skills/ljg-card", "category": "creative", "reason": "认知可视化"},
-    {"name": "ljg-book", "repo": "lijigang/ljg-skills", "path": "skills/ljg-book", "category": "research", "reason": "读书助手"},
-    {"name": "ljg-invest", "repo": "lijigang/ljg-skills", "path": "skills/ljg-invest", "category": "research", "reason": "投资分析"},
-    {"name": "ljg-travel", "repo": "lijigang/ljg-skills", "path": "skills/ljg-travel", "category": "research", "reason": "旅行研究"},
-    {"name": "ljg-rank", "repo": "lijigang/ljg-skills", "path": "skills/ljg-rank", "category": "research", "reason": "降秩引擎"},
-    {"name": "ljg-paper", "repo": "lijigang/ljg-skills", "path": "skills/ljg-paper", "category": "research", "reason": "论文阅读"},
-    {"name": "ljg-skill-map", "repo": "lijigang/ljg-skills", "path": "skills/ljg-skill-map", "category": "software-development", "reason": "技能地图可视化"},
-    {"name": "ljg-writes", "repo": "lijigang/ljg-skills", "path": "skills/ljg-writes", "category": "creative", "reason": "写作助手"},
-    {"name": "ljg-qa", "repo": "lijigang/ljg-skills", "path": "skills/ljg-qa", "category": "research", "reason": "问答助手"},
-    {"name": "ljg-word", "repo": "lijigang/ljg-skills", "path": "skills/ljg-word", "category": "research", "reason": "单词解剖"},
-    {"name": "caveman", "repo": "JuliusBrussee/caveman", "path": "skills/caveman", "category": "software-development", "reason": "63K stars，极简代码审查"},
-    {"name": "planning-with-files", "repo": "OthmanAdi/planning-with-files", "path": "skills/planning-with-files", "category": "productivity", "reason": "21K stars，Manus风格持久化规划"},
-    {"name": "humanizer", "repo": "blader/humanizer", "path": "SKILL.md", "category": "creative", "reason": "20K stars，去除AI写作痕迹"},
-    {"name": "humanizer-zh", "repo": "op7418/Humanizer-zh", "path": "SKILL.md", "category": "creative", "reason": "8K stars，Humanizer中文版"},
-    {"name": "prompt-master", "repo": "nidhinjs/prompt-master", "path": "SKILL.md", "category": "productivity", "reason": "8K stars，精准Prompt生成"},
-    {"name": "dev-browser", "repo": "SawyerHood/dev-browser", "path": "skills/dev-browser", "category": "software-development", "reason": "6K stars，浏览器自动化"},
-    {"name": "playwright-skill", "repo": "lackeyjb/playwright-skill", "path": "skills/playwright-skill", "category": "software-development", "reason": "2.6K stars，Playwright浏览器自动化"},
-    {"name": "osint-methodology", "repo": "elementalsouls/Claude-OSINT", "path": "skills/osint-methodology", "category": "research", "reason": "1.3K stars，OSINT调研方法论"},
-    {"name": "offensive-osint", "repo": "elementalsouls/Claude-OSINT", "path": "skills/offensive-osint", "category": "research", "reason": "1.3K stars，攻击性OSINT"},
-    {"name": "anything-to-notebooklm", "repo": "joeseesun/qiaomu-anything-to-notebooklm", "path": "SKILL.md", "category": "productivity", "reason": "4.5K stars，多源内容处理"},
-    {"name": "codebase-to-course", "repo": "zarazhangrui/codebase-to-course", "path": "SKILL.md", "category": "productivity", "reason": "4.4K stars，代码库变课程"},
-    {"name": "guizang-ppt-skill", "repo": "op7418/guizang-ppt-skill", "path": "SKILL.md", "category": "creative", "reason": "4.5K stars，电子杂志风PPT"},
-    {"name": "stripe-best-practices", "repo": "stripe/ai", "path": "skills/stripe-best-practices", "category": "software-development", "reason": "Stripe官方，支付集成最佳实践"},
-    {"name": "find-skills", "repo": "vercel-labs/skills", "path": "skills/find-skills", "category": "software-development", "reason": "Vercel官方，技能发现与安装"},
-    {"name": "building-ai-agent-on-cloudflare", "repo": "cloudflare/skills", "path": "skills/building-ai-agent-on-cloudflare", "category": "software-development", "reason": "Cloudflare官方，AI Agent构建"},
-    {"name": "cloudflare-docs", "repo": "cloudflare/skills", "path": "skills/cloudflare-docs", "category": "devops", "reason": "Cloudflare官方，文档参考"},
-    {"name": "building-mcp-server-on-cloudflare", "repo": "cloudflare/skills", "path": "skills/building-mcp-server-on-cloudflare", "category": "software-development", "reason": "Cloudflare MCP服务器构建"},
-    {"name": "netlify-dev", "repo": "netlify/skills", "path": "skills/netlify-dev", "category": "devops", "reason": "Netlify官方，开发部署指南"},
-    {"name": "expo-best-practices", "repo": "expo/skills", "path": "skills/expo-best-practices", "category": "software-development", "reason": "Expo官方，React Native最佳实践"},
-    {"name": "remotion-best-practices", "repo": "remotion-dev/skills", "path": "skills/remotion-best-practices", "category": "creative", "reason": "Remotion官方，视频编程最佳实践"},
-    {"name": "building-secure-contracts", "repo": "trailofbits/skills", "path": "skills/building-secure-contracts", "category": "red-teaming", "reason": "Trail of Bits，智能合约安全审计"},
-    {"name": "differential-review", "repo": "trailofbits/skills", "path": "skills/differential-review", "category": "software-development", "reason": "Trail of Bits，安全代码审查"},
-    {"name": "figma-design", "repo": "figma/skills", "path": "skills/figma-design", "category": "creative", "reason": "Figma官方，设计系统集成"},
-    {"name": "sentry-setup", "repo": "sentry/skills", "path": "skills/sentry-setup", "category": "devops", "reason": "Sentry官方，错误监控集成"},
-    {"name": "neon-database", "repo": "neondatabase/skills", "path": "skills/neon-database", "category": "data-science", "reason": "Neon官方，Serverless Postgres"},
-    {"name": "supabase-integration", "repo": "supabase/skills", "path": "skills/supabase-integration", "category": "software-development", "reason": "Supabase官方，后端集成"},
-    {"name": "firecrawl-skill", "repo": "firecrawl/skills", "path": "skills/firecrawl-skill", "category": "research", "reason": "Firecrawl官方，网页抓取"},
-    {"name": "phpstorm-skill", "repo": "nicoverbruggen/phpstorm-skill", "path": "SKILL.md", "category": "software-development", "reason": "PhpStorm IDE集成技能"},
-    {"name": "sql-expert", "repo": "angeligareta/SQL-expert-skill", "path": "SKILL.md", "category": "data-science", "reason": "SQL专家查询优化技能"},
-    {"name": "wordpress-development", "repo": "WordPress/skills", "path": "skills/wordpress-development", "category": "software-development", "reason": "WordPress官方，WP开发指南"},
-    {"name": "duckdb-analytics", "repo": "duckdb/skills", "path": "skills/duckdb-analytics", "category": "data-science", "reason": "DuckDB官方，分析查询"},
-    {"name": "callstack-react-native", "repo": "callstack/skills", "path": "skills/callstack-react-native", "category": "software-development", "reason": "Callstack，React Native专家"},
-    {"name": "github-copilot-instructions", "repo": "github/awesome-copilot", "path": "skills/security-review", "category": "software-development", "reason": "GitHub官方，安全审查技能"},
-    {"name": "langgraph", "repo": "sickn33/antigravity-awesome-skills", "path": "skills/langgraph", "category": "software-development", "reason": "LangGraph多代理应用开发"},
-    {"name": "crewai", "repo": "sickn33/antigravity-awesome-skills", "path": "skills/crewai", "category": "software-development", "reason": "CrewAI多代理框架"},
-    {"name": "autonomous-agents", "repo": "sickn33/antigravity-awesome-skills", "path": "skills/autonomous-agents", "category": "software-development", "reason": "自主代理ReAct模式"},
-    {"name": "agent-memory-systems", "repo": "sickn33/antigravity-awesome-skills", "path": "skills/agent-memory-systems", "category": "software-development", "reason": "AI Agent记忆架构"},
-    {"name": "voice-agents", "repo": "sickn33/antigravity-awesome-skills", "path": "skills/voice-agents", "category": "software-development", "reason": "语音AI助手开发"},
-    {"name": "prompt-engineer", "repo": "sickn33/antigravity-awesome-skills", "path": "skills/prompt-engineer", "category": "productivity", "reason": "LLM提示工程"},
-    {"name": "langfuse", "repo": "sickn33/antigravity-awesome-skills", "path": "skills/langfuse", "category": "mlops", "reason": "LLM可观测性与追踪"},
-    {"name": "php-modernization", "repo": "netresearch/php-modernization-skill", "path": "SKILL.md", "category": "software-development", "reason": "PHP 8.x现代化升级"},
-    {"name": "drawio-skill", "repo": "Agents365-ai/drawio-skill", "path": "SKILL.md", "category": "creative", "reason": "Draw.io图表生成"},
-    {"name": "asta-skill", "repo": "Agents365-ai/asta-skill", "path": "SKILL.md", "category": "red-teaming", "reason": "智能合约审计报告生成"},
-    {"name": "security-review", "repo": "github/awesome-copilot", "path": "skills/security-review", "category": "red-teaming", "reason": "GitHub安全审查，漏洞扫描"},
-    {"name": "claude-jobs", "repo": "jshchnz/claude-jobs", "path": "SKILL.md", "category": "productivity", "reason": "科技公司职位搜索"},
-    {"name": "using-superpowers", "repo": "obra/superpowers", "path": "skills/using-superpowers", "category": "productivity", "reason": "Superpowers框架使用指南，964 stars"},
-    {"name": "requesting-code-review", "repo": "obra/superpowers", "path": "skills/requesting-code-review", "category": "software-development", "reason": "自动化代码审查流程"},
-    {"name": "receiving-code-review", "repo": "obra/superpowers", "path": "skills/receiving-code-review", "category": "software-development", "reason": "接收代码审查反馈最佳实践"},
-    {"name": "writing-plans", "repo": "obra/superpowers", "path": "skills/writing-plans", "category": "productivity", "reason": "开发计划编写"},
-    {"name": "executing-plans", "repo": "obra/superpowers", "path": "skills/executing-plans", "category": "productivity", "reason": "开发计划执行"},
-    {"name": "brainstorming", "repo": "obra/superpowers", "path": "skills/brainstorming", "category": "creative", "reason": "结构化头脑风暴"},
-    {"name": "subagent-driven-development", "repo": "obra/superpowers", "path": "skills/subagent-driven-development", "category": "software-development", "reason": "子代理驱动开发模式"},
-    {"name": "using-git-worktrees", "repo": "obra/superpowers", "path": "skills/using-git-worktrees", "category": "software-development", "reason": "Git Worktree隔离开发"},
-    {"name": "finishing-a-development-branch", "repo": "obra/superpowers", "path": "skills/finishing-a-development-branch", "category": "software-development", "reason": "开发分支完成与合并"},
-    {"name": "narrator-ai-cli-skill", "repo": "NarratorAI-Studio/narrator-ai-cli-skill", "path": "SKILL.md", "category": "creative", "reason": "AI解说大师，视频配音"},
-    {"name": "adb-skill", "repo": "NickLascelles/skills", "path": "skills/adb-skill", "category": "software-development", "reason": "Android调试桥自动化"},
-    {"name": "clipboard-skill", "repo": "NickLascelles/skills", "path": "skills/clipboard-skill", "category": "productivity", "reason": "剪贴板操作自动化"},
-    {"name": "a11y-audit", "repo": "alirezarezvani/claude-skills", "path": "skills/a11y-audit", "category": "software-development", "reason": "WCAG 2.2无障碍审计"},
-    {"name": "docker-development", "repo": "alirezarezvani/claude-skills", "path": "skills/docker-development", "category": "devops", "reason": "Docker开发最佳实践"},
-    {"name": "helm-chart-builder", "repo": "alirezarezvani/claude-skills", "path": "skills/helm-chart-builder", "category": "devops", "reason": "Helm Chart构建"},
-    {"name": "terraform-patterns", "repo": "alirezarezvani/claude-skills", "path": "skills/terraform-patterns", "category": "devops", "reason": "Terraform IaC模块设计"},
-    {"name": "executive-mentor", "repo": "alirezarezvani/claude-skills", "path": "skills/executive-mentor", "category": "productivity", "reason": "对抗性思维伙伴"},
-    {"name": "research-summarizer", "repo": "alirezarezvani/claude-skills", "path": "skills/research-summarizer", "category": "research", "reason": "结构化研究综合"},
-    {"name": "seo-auditor", "repo": "alirezarezvani/claude-skills", "path": "skills/seo-auditor", "category": "social-media", "reason": "7阶段SEO审计管道"},
-    {"name": "epic-design", "repo": "alirezarezvani/claude-skills", "path": "skills/epic-design", "category": "creative", "reason": "史诗级设计系统"},
-    {"name": "accelint-ts-best-practices", "repo": "gohypergiant/agent-skills", "path": "skills/accelint-ts-best-practices", "category": "software-development", "reason": "TypeScript最佳实践"},
-    {"name": "accelint-skill-manager", "repo": "gohypergiant/agent-skills", "path": "skills/accelint-skill-manager", "category": "software-development", "reason": "Skill管理与审计"},
-    {"name": "skill-judge", "repo": "gohypergiant/agent-skills", "path": "skills/skill-judge", "category": "software-development", "reason": "Skill质量评判"}
+    {
+      "name": "frontend-design",
+      "repo": "anthropics/skills",
+      "path": "skills/frontend-design",
+      "category": "creative",
+      "reason": "Anthropic官方，前端设计指南",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.85,
+      "description": "Frontend UI/UX design guidelines and best practices for modern web applications"
+    },
+    {
+      "name": "skill-creator",
+      "repo": "anthropics/skills",
+      "path": "skills/skill-creator",
+      "category": "software-development",
+      "reason": "Anthropic官方，创建新skill的元技能",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.9,
+      "description": "Meta-skill for creating new Hermes/AI agent skills with proper structure"
+    },
+    {
+      "name": "algorithmic-art",
+      "repo": "anthropics/skills",
+      "path": "skills/algorithmic-art",
+      "category": "creative",
+      "reason": "算法艺术生成",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.7,
+      "description": "Generate algorithmic and generative art using code-based approaches"
+    },
+    {
+      "name": "brand-guidelines",
+      "repo": "anthropics/skills",
+      "path": "skills/brand-guidelines",
+      "category": "creative",
+      "reason": "品牌设计规范",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.65,
+      "description": "Brand identity design specifications and visual language standards"
+    },
+    {
+      "name": "canvas-design",
+      "repo": "anthropics/skills",
+      "path": "skills/canvas-design",
+      "category": "creative",
+      "reason": "Canvas画布设计",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.72,
+      "description": "HTML Canvas-based interactive designs and visualizations"
+    },
+    {
+      "name": "claude-api",
+      "repo": "anthropics/skills",
+      "path": "skills/claude-api",
+      "category": "software-development",
+      "reason": "Claude API开发指南",
+      "tags": [
+        "Platform",
+        "Tool"
+      ],
+      "popularity_score": 0.92,
+      "description": "Claude API integration guide for building AI-powered applications"
+    },
+    {
+      "name": "doc-coauthoring",
+      "repo": "anthropics/skills",
+      "path": "skills/doc-coauthoring",
+      "category": "productivity",
+      "reason": "文档协作",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.75,
+      "description": "Collaborative document authoring and editing workflows"
+    },
+    {
+      "name": "docx",
+      "repo": "anthropics/skills",
+      "path": "skills/docx",
+      "category": "productivity",
+      "reason": "Word文档处理",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.78,
+      "description": "Microsoft Word document creation and manipulation automation"
+    },
+    {
+      "name": "internal-comms",
+      "repo": "anthropics/skills",
+      "path": "skills/internal-comms",
+      "category": "productivity",
+      "reason": "内部沟通文档",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.6,
+      "description": "Internal communication document templates and best practices"
+    },
+    {
+      "name": "mcp-builder",
+      "repo": "anthropics/skills",
+      "path": "skills/mcp-builder",
+      "category": "software-development",
+      "reason": "MCP服务器构建",
+      "tags": [
+        "Tool",
+        "Framework"
+      ],
+      "popularity_score": 0.95,
+      "description": "Build Model Context Protocol (MCP) servers for AI tool integration"
+    },
+    {
+      "name": "pdf",
+      "repo": "anthropics/skills",
+      "path": "skills/pdf",
+      "category": "productivity",
+      "reason": "PDF文档处理",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.8,
+      "description": "PDF document generation, extraction, and manipulation"
+    },
+    {
+      "name": "pptx",
+      "repo": "anthropics/skills",
+      "path": "skills/pptx",
+      "category": "productivity",
+      "reason": "PPT演示文稿制作",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.76,
+      "description": "PowerPoint presentation creation with automated slide design"
+    },
+    {
+      "name": "slack-gif-creator",
+      "repo": "anthropics/skills",
+      "path": "skills/slack-gif-creator",
+      "category": "creative",
+      "reason": "Slack GIF制作",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.55,
+      "description": "Create animated GIFs optimized for Slack messaging platform"
+    },
+    {
+      "name": "theme-factory",
+      "repo": "anthropics/skills",
+      "path": "skills/theme-factory",
+      "category": "creative",
+      "reason": "主题工厂",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.62,
+      "description": "Theme and visual style generation system for applications"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "repo": "anthropics/skills",
+      "path": "skills/web-artifacts-builder",
+      "category": "software-development",
+      "reason": "Web组件构建",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.82,
+      "description": "Build interactive web components and artifacts for AI agents"
+    },
+    {
+      "name": "webapp-testing",
+      "repo": "anthropics/skills",
+      "path": "skills/webapp-testing",
+      "category": "software-development",
+      "reason": "Web应用测试",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.74,
+      "description": "Web application testing strategies covering E2E, integration, unit"
+    },
+    {
+      "name": "xlsx",
+      "repo": "anthropics/skills",
+      "path": "skills/xlsx",
+      "category": "productivity",
+      "reason": "Excel文件处理",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.78,
+      "description": "Excel spreadsheet creation, data analysis, and formula automation"
+    },
+    {
+      "name": "react-best-practices",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/react-best-practices",
+      "category": "software-development",
+      "reason": "Vercel官方，React性能优化70条规则",
+      "tags": [
+        "Framework",
+        "Utility"
+      ],
+      "popularity_score": 0.92,
+      "description": "React performance optimization with 70+ rules from Vercel Engineering"
+    },
+    {
+      "name": "web-design-guidelines",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/web-design-guidelines",
+      "category": "creative",
+      "reason": "Vercel官方，Web设计规范",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.82,
+      "description": "Web design principles and UI component architecture guidelines"
+    },
+    {
+      "name": "composition-patterns",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/composition-patterns",
+      "category": "software-development",
+      "reason": "React组合模式",
+      "tags": [
+        "Framework"
+      ],
+      "popularity_score": 0.78,
+      "description": "React component composition patterns for scalable UI architecture"
+    },
+    {
+      "name": "deploy-to-vercel",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/deploy-to-vercel",
+      "category": "devops",
+      "reason": "Vercel部署指南",
+      "tags": [
+        "Platform"
+      ],
+      "popularity_score": 0.85,
+      "description": "Deploy frontend applications to Vercel platform with best practices"
+    },
+    {
+      "name": "react-native-skills",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/react-native-skills",
+      "category": "software-development",
+      "reason": "React Native开发",
+      "tags": [
+        "Framework"
+      ],
+      "popularity_score": 0.8,
+      "description": "React Native cross-platform mobile development best practices"
+    },
+    {
+      "name": "react-view-transitions",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/react-view-transitions",
+      "category": "software-development",
+      "reason": "React视图过渡",
+      "tags": [
+        "Framework"
+      ],
+      "popularity_score": 0.72,
+      "description": "React view transition animations and page navigation patterns"
+    },
+    {
+      "name": "vercel-optimize",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/vercel-optimize",
+      "category": "software-development",
+      "reason": "Vercel性能优化",
+      "tags": [
+        "Platform",
+        "Tool"
+      ],
+      "popularity_score": 0.83,
+      "description": "Vercel deployment optimization for performance and cost efficiency"
+    },
+    {
+      "name": "ljg-learn",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-learn",
+      "category": "research",
+      "reason": "概念解剖器，5.2K stars",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.88,
+      "description": "Concept dissector that breaks down complex ideas into understandable pieces"
+    },
+    {
+      "name": "ljg-think",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-think",
+      "category": "research",
+      "reason": "追本之箭，深度思考",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.86,
+      "description": "Deep thinking tool for thorough analysis and critical reasoning"
+    },
+    {
+      "name": "ljg-read",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-read",
+      "category": "research",
+      "reason": "伴读教练",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.84,
+      "description": "Reading companion that helps extract key insights from any text"
+    },
+    {
+      "name": "ljg-plain",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-plain",
+      "category": "creative",
+      "reason": "逼AI说人话",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.9,
+      "description": "Force AI to speak plainly without marketing or academic jargon"
+    },
+    {
+      "name": "ljg-card",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-card",
+      "category": "creative",
+      "reason": "认知可视化",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.82,
+      "description": "Cognitive visualization that turns abstract concepts into visual cards"
+    },
+    {
+      "name": "ljg-book",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-book",
+      "category": "research",
+      "reason": "读书助手",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.8,
+      "description": "Reading assistant for books with structured note-taking and summaries"
+    },
+    {
+      "name": "ljg-invest",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-invest",
+      "category": "research",
+      "reason": "投资分析",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.76,
+      "description": "Investment analysis and financial research assistant"
+    },
+    {
+      "name": "ljg-travel",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-travel",
+      "category": "research",
+      "reason": "旅行研究",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.74,
+      "description": "Travel research and itinerary planning assistant"
+    },
+    {
+      "name": "ljg-rank",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-rank",
+      "category": "research",
+      "reason": "降秩引擎",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.78,
+      "description": "Ranking engine that compares and scores multiple options systematically"
+    },
+    {
+      "name": "ljg-paper",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-paper",
+      "category": "research",
+      "reason": "论文阅读",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.82,
+      "description": "Academic paper reading and analysis with structured extraction"
+    },
+    {
+      "name": "ljg-skill-map",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-skill-map",
+      "category": "software-development",
+      "reason": "技能地图可视化",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.72,
+      "description": "Skill map visualization showing relationships between concepts"
+    },
+    {
+      "name": "ljg-writes",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-writes",
+      "category": "creative",
+      "reason": "写作助手",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.85,
+      "description": "Writing assistant for creative and professional content creation"
+    },
+    {
+      "name": "ljg-qa",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-qa",
+      "category": "research",
+      "reason": "问答助手",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.8,
+      "description": "Q&A assistant for answering questions with structured reasoning"
+    },
+    {
+      "name": "ljg-word",
+      "repo": "lijigang/ljg-skills",
+      "path": "skills/ljg-word",
+      "category": "research",
+      "reason": "单词解剖",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.78,
+      "description": "Word dissection and etymology analysis for vocabulary building"
+    },
+    {
+      "name": "caveman",
+      "repo": "JuliusBrussee/caveman",
+      "path": "skills/caveman",
+      "category": "software-development",
+      "reason": "63K stars，极简代码审查",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.95,
+      "description": "Minimalist code review skill that catches bugs without unnecessary commentary"
+    },
+    {
+      "name": "planning-with-files",
+      "repo": "OthmanAdi/planning-with-files",
+      "path": "skills/planning-with-files",
+      "category": "productivity",
+      "reason": "21K stars，Manus风格持久化规划",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.91,
+      "description": "Manus-style persistent planning with file-based project management"
+    },
+    {
+      "name": "humanizer",
+      "repo": "blader/humanizer",
+      "path": "SKILL.md",
+      "category": "creative",
+      "reason": "20K stars，去除AI写作痕迹",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.9,
+      "description": "Remove AI writing patterns to produce more natural human-like text"
+    },
+    {
+      "name": "humanizer-zh",
+      "repo": "op7418/Humanizer-zh",
+      "path": "SKILL.md",
+      "category": "creative",
+      "reason": "8K stars，Humanizer中文版",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.82,
+      "description": "Chinese version of Humanizer: remove AI writing traces in Chinese text"
+    },
+    {
+      "name": "prompt-master",
+      "repo": "nidhinjs/prompt-master",
+      "path": "SKILL.md",
+      "category": "productivity",
+      "reason": "8K stars，精准Prompt生成",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.82,
+      "description": "Precision prompt engineering for generating better LLM outputs"
+    },
+    {
+      "name": "dev-browser",
+      "repo": "SawyerHood/dev-browser",
+      "path": "skills/dev-browser",
+      "category": "software-development",
+      "reason": "6K stars，浏览器自动化",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.8,
+      "description": "Browser automation skill for web scraping and testing workflows"
+    },
+    {
+      "name": "playwright-skill",
+      "repo": "lackeyjb/playwright-skill",
+      "path": "skills/playwright-skill",
+      "category": "software-development",
+      "reason": "2.6K stars，Playwright浏览器自动化",
+      "tags": [
+        "Tool",
+        "Framework"
+      ],
+      "popularity_score": 0.78,
+      "description": "Playwright-based browser automation for E2E testing at scale"
+    },
+    {
+      "name": "osint-methodology",
+      "repo": "elementalsouls/Claude-OSINT",
+      "path": "skills/osint-methodology",
+      "category": "research",
+      "reason": "1.3K stars，OSINT调研方法论",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.72,
+      "description": "Open Source Intelligence gathering methodology and best practices"
+    },
+    {
+      "name": "offensive-osint",
+      "repo": "elementalsouls/Claude-OSINT",
+      "path": "skills/offensive-osint",
+      "category": "research",
+      "reason": "1.3K stars，攻击性OSINT",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.7,
+      "description": "Offensive OSINT techniques for security research and threat intelligence"
+    },
+    {
+      "name": "anything-to-notebooklm",
+      "repo": "joeseesun/qiaomu-anything-to-notebooklm",
+      "path": "SKILL.md",
+      "category": "productivity",
+      "reason": "4.5K stars，多源内容处理",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.78,
+      "description": "Convert various content sources into NotebookLM-ready format"
+    },
+    {
+      "name": "codebase-to-course",
+      "repo": "zarazhangrui/codebase-to-course",
+      "path": "SKILL.md",
+      "category": "productivity",
+      "reason": "4.4K stars，代码库变课程",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.76,
+      "description": "Transform any codebase into structured learning courses"
+    },
+    {
+      "name": "guizang-ppt-skill",
+      "repo": "op7418/guizang-ppt-skill",
+      "path": "SKILL.md",
+      "category": "creative",
+      "reason": "4.5K stars，电子杂志风PPT",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.78,
+      "description": "Create electronic magazine style presentations with visual flair"
+    },
+    {
+      "name": "stripe-best-practices",
+      "repo": "stripe/ai",
+      "path": "skills/stripe-best-practices",
+      "category": "software-development",
+      "reason": "Stripe官方，支付集成最佳实践",
+      "tags": [
+        "Platform",
+        "Utility"
+      ],
+      "popularity_score": 0.9,
+      "description": "Stripe payment integration best practices for secure transactions"
+    },
+    {
+      "name": "find-skills",
+      "repo": "vercel-labs/skills",
+      "path": "skills/find-skills",
+      "category": "software-development",
+      "reason": "Vercel官方，技能发现与安装",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.75,
+      "description": "Discover and install skills from the skills.sh ecosystem"
+    },
+    {
+      "name": "building-ai-agent-on-cloudflare",
+      "repo": "cloudflare/skills",
+      "path": "skills/building-ai-agent-on-cloudflare",
+      "category": "software-development",
+      "reason": "Cloudflare官方，AI Agent构建",
+      "tags": [
+        "Platform",
+        "Framework"
+      ],
+      "popularity_score": 0.88,
+      "description": "Build AI agents on Cloudflare's edge computing platform"
+    },
+    {
+      "name": "cloudflare-docs",
+      "repo": "cloudflare/skills",
+      "path": "skills/cloudflare-docs",
+      "category": "devops",
+      "reason": "Cloudflare官方，文档参考",
+      "tags": [
+        "Platform"
+      ],
+      "popularity_score": 0.78,
+      "description": "Cloudflare platform documentation reference for developers"
+    },
+    {
+      "name": "building-mcp-server-on-cloudflare",
+      "repo": "cloudflare/skills",
+      "path": "skills/building-mcp-server-on-cloudflare",
+      "category": "software-development",
+      "reason": "Cloudflare MCP服务器构建",
+      "tags": [
+        "Platform",
+        "Tool"
+      ],
+      "popularity_score": 0.85,
+      "description": "Build MCP servers on Cloudflare Workers infrastructure"
+    },
+    {
+      "name": "netlify-dev",
+      "repo": "netlify/skills",
+      "path": "skills/netlify-dev",
+      "category": "devops",
+      "reason": "Netlify官方，开发部署指南",
+      "tags": [
+        "Platform"
+      ],
+      "popularity_score": 0.78,
+      "description": "Netlify development and deployment guide for web applications"
+    },
+    {
+      "name": "expo-best-practices",
+      "repo": "expo/skills",
+      "path": "skills/expo-best-practices",
+      "category": "software-development",
+      "reason": "Expo官方，React Native最佳实践",
+      "tags": [
+        "Platform",
+        "Framework"
+      ],
+      "popularity_score": 0.82,
+      "description": "Expo framework best practices for React Native development"
+    },
+    {
+      "name": "remotion-best-practices",
+      "repo": "remotion-dev/skills",
+      "path": "skills/remotion-best-practices",
+      "category": "creative",
+      "reason": "Remotion官方，视频编程最佳实践",
+      "tags": [
+        "Platform",
+        "Framework"
+      ],
+      "popularity_score": 0.8,
+      "description": "Remotion framework for programmatic video creation with React"
+    },
+    {
+      "name": "building-secure-contracts",
+      "repo": "trailofbits/skills",
+      "path": "skills/building-secure-contracts",
+      "category": "red-teaming",
+      "reason": "Trail of Bits，智能合约安全审计",
+      "tags": [
+        "Framework",
+        "Tool"
+      ],
+      "popularity_score": 0.85,
+      "description": "Smart contract security audit methodology from Trail of Bits"
+    },
+    {
+      "name": "differential-review",
+      "repo": "trailofbits/skills",
+      "path": "skills/differential-review",
+      "category": "software-development",
+      "reason": "Trail of Bits，安全代码审查",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.78,
+      "description": "Security-focused differential code review techniques"
+    },
+    {
+      "name": "figma-design",
+      "repo": "figma/skills",
+      "path": "skills/figma-design",
+      "category": "creative",
+      "reason": "Figma官方，设计系统集成",
+      "tags": [
+        "Platform",
+        "Tool"
+      ],
+      "popularity_score": 0.85,
+      "description": "Figma design tool integration and design system management"
+    },
+    {
+      "name": "sentry-setup",
+      "repo": "sentry/skills",
+      "path": "skills/sentry-setup",
+      "category": "devops",
+      "reason": "Sentry官方，错误监控集成",
+      "tags": [
+        "Platform",
+        "Tool"
+      ],
+      "popularity_score": 0.82,
+      "description": "Sentry error monitoring setup and configuration best practices"
+    },
+    {
+      "name": "neon-database",
+      "repo": "neondatabase/skills",
+      "path": "skills/neon-database",
+      "category": "data-science",
+      "reason": "Neon官方，Serverless Postgres",
+      "tags": [
+        "Platform"
+      ],
+      "popularity_score": 0.78,
+      "description": "Neon serverless Postgres database setup and query optimization"
+    },
+    {
+      "name": "supabase-integration",
+      "repo": "supabase/skills",
+      "path": "skills/supabase-integration",
+      "category": "software-development",
+      "reason": "Supabase官方，后端集成",
+      "tags": [
+        "Platform"
+      ],
+      "popularity_score": 0.85,
+      "description": "Supabase backend-as-a-service integration for web applications"
+    },
+    {
+      "name": "firecrawl-skill",
+      "repo": "firecrawl/skills",
+      "path": "skills/firecrawl-skill",
+      "category": "research",
+      "reason": "Firecrawl官方，网页抓取",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.8,
+      "description": "Firecrawl web scraping and crawling for structured data extraction"
+    },
+    {
+      "name": "phpstorm-skill",
+      "repo": "nicoverbruggen/phpstorm-skill",
+      "path": "SKILL.md",
+      "category": "software-development",
+      "reason": "PhpStorm IDE集成技能",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.68,
+      "description": "PhpStorm IDE integration and productivity automation"
+    },
+    {
+      "name": "sql-expert",
+      "repo": "angeligareta/SQL-expert-skill",
+      "path": "SKILL.md",
+      "category": "data-science",
+      "reason": "SQL专家查询优化技能",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.76,
+      "description": "SQL query optimization and database performance tuning expert"
+    },
+    {
+      "name": "wordpress-development",
+      "repo": "WordPress/skills",
+      "path": "skills/wordpress-development",
+      "category": "software-development",
+      "reason": "WordPress官方，WP开发指南",
+      "tags": [
+        "Platform",
+        "Framework"
+      ],
+      "popularity_score": 0.76,
+      "description": "WordPress plugin and theme development best practices"
+    },
+    {
+      "name": "duckdb-analytics",
+      "repo": "duckdb/skills",
+      "path": "skills/duckdb-analytics",
+      "category": "data-science",
+      "reason": "DuckDB官方，分析查询",
+      "tags": [
+        "Tool",
+        "Platform"
+      ],
+      "popularity_score": 0.82,
+      "description": "DuckDB in-process analytical database for fast data queries"
+    },
+    {
+      "name": "callstack-react-native",
+      "repo": "callstack/skills",
+      "path": "skills/callstack-react-native",
+      "category": "software-development",
+      "reason": "Callstack，React Native专家",
+      "tags": [
+        "Framework",
+        "Utility"
+      ],
+      "popularity_score": 0.74,
+      "description": "Callstack's React Native development expertise and patterns"
+    },
+    {
+      "name": "github-copilot-instructions",
+      "repo": "github/awesome-copilot",
+      "path": "skills/security-review",
+      "category": "software-development",
+      "reason": "GitHub官方，安全审查技能",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.85,
+      "description": "GitHub security review automation with Copilot instructions"
+    },
+    {
+      "name": "langgraph",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "path": "skills/langgraph",
+      "category": "software-development",
+      "reason": "LangGraph多代理应用开发",
+      "tags": [
+        "Framework"
+      ],
+      "popularity_score": 0.9,
+      "description": "LangGraph framework for building multi-agent applications"
+    },
+    {
+      "name": "crewai",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "path": "skills/crewai",
+      "category": "software-development",
+      "reason": "CrewAI多代理框架",
+      "tags": [
+        "Framework",
+        "Agent"
+      ],
+      "popularity_score": 0.92,
+      "description": "CrewAI multi-agent orchestration framework for AI teams"
+    },
+    {
+      "name": "autonomous-agents",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "path": "skills/autonomous-agents",
+      "category": "software-development",
+      "reason": "自主代理ReAct模式",
+      "tags": [
+        "Framework",
+        "Agent"
+      ],
+      "popularity_score": 0.88,
+      "description": "ReAct pattern autonomous agents with tool-use capabilities"
+    },
+    {
+      "name": "agent-memory-systems",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "path": "skills/agent-memory-systems",
+      "category": "software-development",
+      "reason": "AI Agent记忆架构",
+      "tags": [
+        "Framework",
+        "Agent"
+      ],
+      "popularity_score": 0.82,
+      "description": "Memory architectures for persistent AI agent state management"
+    },
+    {
+      "name": "voice-agents",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "path": "skills/voice-agents",
+      "category": "software-development",
+      "reason": "语音AI助手开发",
+      "tags": [
+        "Agent",
+        "Framework"
+      ],
+      "popularity_score": 0.85,
+      "description": "Voice AI agent development with speech recognition and synthesis"
+    },
+    {
+      "name": "prompt-engineer",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "path": "skills/prompt-engineer",
+      "category": "productivity",
+      "reason": "LLM提示工程",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.86,
+      "description": "Advanced LLM prompt engineering techniques and patterns"
+    },
+    {
+      "name": "langfuse",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "path": "skills/langfuse",
+      "category": "mlops",
+      "reason": "LLM可观测性与追踪",
+      "tags": [
+        "Platform",
+        "Tool"
+      ],
+      "popularity_score": 0.84,
+      "description": "Langfuse observability platform for LLM application monitoring"
+    },
+    {
+      "name": "php-modernization",
+      "repo": "netresearch/php-modernization-skill",
+      "path": "SKILL.md",
+      "category": "software-development",
+      "reason": "PHP 8.x现代化升级",
+      "tags": [
+        "Utility",
+        "Framework"
+      ],
+      "popularity_score": 0.65,
+      "description": "PHP 8.x modernization: upgrade legacy code to modern PHP"
+    },
+    {
+      "name": "drawio-skill",
+      "repo": "Agents365-ai/drawio-skill",
+      "path": "SKILL.md",
+      "category": "creative",
+      "reason": "Draw.io图表生成",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.72,
+      "description": "Draw.io diagram generation for architecture and flow charts"
+    },
+    {
+      "name": "asta-skill",
+      "repo": "Agents365-ai/asta-skill",
+      "path": "SKILL.md",
+      "category": "red-teaming",
+      "reason": "智能合约审计报告生成",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.6,
+      "description": "Smart contract audit report generation with automated analysis"
+    },
+    {
+      "name": "security-review",
+      "repo": "github/awesome-copilot",
+      "path": "skills/security-review",
+      "category": "red-teaming",
+      "reason": "GitHub安全审查，漏洞扫描",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.85,
+      "description": "GitHub security review automation with vulnerability scanning"
+    },
+    {
+      "name": "claude-jobs",
+      "repo": "jshchnz/claude-jobs",
+      "path": "SKILL.md",
+      "category": "productivity",
+      "reason": "科技公司职位搜索",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.7,
+      "description": "Tech company job search and position matching assistant"
+    },
+    {
+      "name": "using-superpowers",
+      "repo": "obra/superpowers",
+      "path": "skills/using-superpowers",
+      "category": "productivity",
+      "reason": "Superpowers框架使用指南，964 stars",
+      "tags": [
+        "Framework",
+        "Utility"
+      ],
+      "popularity_score": 0.72,
+      "description": "Superpowers framework usage guide for agent development"
+    },
+    {
+      "name": "requesting-code-review",
+      "repo": "obra/superpowers",
+      "path": "skills/requesting-code-review",
+      "category": "software-development",
+      "reason": "自动化代码审查流程",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.78,
+      "description": "Automated code review request workflow and best practices"
+    },
+    {
+      "name": "receiving-code-review",
+      "repo": "obra/superpowers",
+      "path": "skills/receiving-code-review",
+      "category": "software-development",
+      "reason": "接收代码审查反馈最佳实践",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.72,
+      "description": "Best practices for receiving and acting on code review feedback"
+    },
+    {
+      "name": "writing-plans",
+      "repo": "obra/superpowers",
+      "path": "skills/writing-plans",
+      "category": "productivity",
+      "reason": "开发计划编写",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.8,
+      "description": "Structured development plan writing for project execution"
+    },
+    {
+      "name": "executing-plans",
+      "repo": "obra/superpowers",
+      "path": "skills/executing-plans",
+      "category": "productivity",
+      "reason": "开发计划执行",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.8,
+      "description": "Systematic development plan execution and tracking"
+    },
+    {
+      "name": "brainstorming",
+      "repo": "obra/superpowers",
+      "path": "skills/brainstorming",
+      "category": "creative",
+      "reason": "结构化头脑风暴",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.74,
+      "description": "Structured brainstorming techniques for creative problem solving"
+    },
+    {
+      "name": "subagent-driven-development",
+      "repo": "obra/superpowers",
+      "path": "skills/subagent-driven-development",
+      "category": "software-development",
+      "reason": "子代理驱动开发模式",
+      "tags": [
+        "Agent",
+        "Framework"
+      ],
+      "popularity_score": 0.82,
+      "description": "Sub-agent driven development pattern for complex software"
+    },
+    {
+      "name": "using-git-worktrees",
+      "repo": "obra/superpowers",
+      "path": "skills/using-git-worktrees",
+      "category": "software-development",
+      "reason": "Git Worktree隔离开发",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.7,
+      "description": "Git worktree isolation for parallel development branches"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "repo": "obra/superpowers",
+      "path": "skills/finishing-a-development-branch",
+      "category": "software-development",
+      "reason": "开发分支完成与合并",
+      "tags": [
+        "Utility",
+        "Tool"
+      ],
+      "popularity_score": 0.72,
+      "description": "Branch completion, merge, and cleanup best practices"
+    },
+    {
+      "name": "narrator-ai-cli-skill",
+      "repo": "NarratorAI-Studio/narrator-ai-cli-skill",
+      "path": "SKILL.md",
+      "category": "creative",
+      "reason": "AI解说大师，视频配音",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.68,
+      "description": "AI narrator for video voiceover and commentary generation"
+    },
+    {
+      "name": "adb-skill",
+      "repo": "NickLascelles/skills",
+      "path": "skills/adb-skill",
+      "category": "software-development",
+      "reason": "Android调试桥自动化",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.65,
+      "description": "Android Debug Bridge automation for device testing"
+    },
+    {
+      "name": "clipboard-skill",
+      "repo": "NickLascelles/skills",
+      "path": "skills/clipboard-skill",
+      "category": "productivity",
+      "reason": "剪贴板操作自动化",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.62,
+      "description": "Clipboard operations automation for copy-paste workflows"
+    },
+    {
+      "name": "a11y-audit",
+      "repo": "alirezarezvani/claude-skills",
+      "path": "skills/a11y-audit",
+      "category": "software-development",
+      "reason": "WCAG 2.2无障碍审计",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.7,
+      "description": "WCAG 2.2 accessibility audit for web application compliance"
+    },
+    {
+      "name": "docker-development",
+      "repo": "alirezarezvani/claude-skills",
+      "path": "skills/docker-development",
+      "category": "devops",
+      "reason": "Docker开发最佳实践",
+      "tags": [
+        "Platform",
+        "Tool"
+      ],
+      "popularity_score": 0.8,
+      "description": "Docker development best practices and container optimization"
+    },
+    {
+      "name": "helm-chart-builder",
+      "repo": "alirezarezvani/claude-skills",
+      "path": "skills/helm-chart-builder",
+      "category": "devops",
+      "reason": "Helm Chart构建",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.74,
+      "description": "Helm chart construction for Kubernetes application deployment"
+    },
+    {
+      "name": "terraform-patterns",
+      "repo": "alirezarezvani/claude-skills",
+      "path": "skills/terraform-patterns",
+      "category": "devops",
+      "reason": "Terraform IaC模块设计",
+      "tags": [
+        "Framework",
+        "Tool"
+      ],
+      "popularity_score": 0.78,
+      "description": "Terraform infrastructure-as-code module design patterns"
+    },
+    {
+      "name": "executive-mentor",
+      "repo": "alirezarezvani/claude-skills",
+      "path": "skills/executive-mentor",
+      "category": "productivity",
+      "reason": "对抗性思维伙伴",
+      "tags": [
+        "Utility",
+        "Agent"
+      ],
+      "popularity_score": 0.72,
+      "description": "Adversarial thinking partner for strategic decision making"
+    },
+    {
+      "name": "research-summarizer",
+      "repo": "alirezarezvani/claude-skills",
+      "path": "skills/research-summarizer",
+      "category": "research",
+      "reason": "结构化研究综合",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.76,
+      "description": "Structured research synthesis and multi-source summarization"
+    },
+    {
+      "name": "seo-auditor",
+      "repo": "alirezarezvani/claude-skills",
+      "path": "skills/seo-auditor",
+      "category": "social-media",
+      "reason": "7阶段SEO审计管道",
+      "tags": [
+        "Tool"
+      ],
+      "popularity_score": 0.7,
+      "description": "7-stage SEO audit pipeline for website optimization"
+    },
+    {
+      "name": "epic-design",
+      "repo": "alirezarezvani/claude-skills",
+      "path": "skills/epic-design",
+      "category": "creative",
+      "reason": "史诗级设计系统",
+      "tags": [
+        "Utility"
+      ],
+      "popularity_score": 0.68,
+      "description": "Epic-scale design system architecture for large applications"
+    },
+    {
+      "name": "accelint-ts-best-practices",
+      "repo": "gohypergiant/agent-skills",
+      "path": "skills/accelint-ts-best-practices",
+      "category": "software-development",
+      "reason": "TypeScript最佳实践",
+      "tags": [
+        "Framework",
+        "Utility"
+      ],
+      "popularity_score": 0.76,
+      "description": "TypeScript best practices and type-safe coding patterns"
+    },
+    {
+      "name": "accelint-skill-manager",
+      "repo": "gohypergiant/agent-skills",
+      "path": "skills/accelint-skill-manager",
+      "category": "software-development",
+      "reason": "Skill管理与审计",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.68,
+      "description": "Skill lifecycle management and audit automation"
+    },
+    {
+      "name": "skill-judge",
+      "repo": "gohypergiant/agent-skills",
+      "path": "skills/skill-judge",
+      "category": "software-development",
+      "reason": "Skill质量评判",
+      "tags": [
+        "Tool",
+        "Utility"
+      ],
+      "popularity_score": 0.7,
+      "description": "Skill quality assessment and code review evaluation"
+    }
   ]
 }
